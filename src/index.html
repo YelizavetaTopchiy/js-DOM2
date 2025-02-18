@@ -9,12 +9,14 @@
 <body>
     <h1>Галерея зображень</h1>
     <div class="gallery-container" id="galleryContainer"></div>
+    
     <div class="buttons">
-        <button onclick="loadMoreImages()">Завантажити ще 4 картинки</button>
-        <button onclick="clearGallery()">Очистити галерею</button>
-        <button onclick="removeLastImage()">Видалити останню картинку</button>
-        <button onclick="reverseGallery()">Перевернути галерею</button>
+        <button id="loadMoreBtn">Завантажити ще 4 картинки</button>
+        <button id="clearGalleryBtn">Очистити галерею</button>
+        <button id="removeLastImageBtn">Видалити останню картинку</button>
+        <button id="reverseGalleryBtn">Перевернути галерею</button>
     </div>
-    <script src="script.js"></script>
+
+    <script type="module" src="script.js"></script>
 </body>
 </html>
